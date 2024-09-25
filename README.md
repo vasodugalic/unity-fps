@@ -29,7 +29,7 @@
 2. Open the project via Unity Hub.
 
 3. Select scene:
-   - In the project assets, go to **Assets >> Scenes** folder.
+   - In the project assets, go to **Assets > Scenes** folder.
    - Double-click on **Menu** scene.
    - You can now start the game by pressing on **Play** button.
    
