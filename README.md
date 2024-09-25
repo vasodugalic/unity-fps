@@ -26,7 +26,7 @@
   git clone https://github.com/vasodugalic/unity-fps/
   ```
 
-2. Open the project via Unity Hub
+2. Open the project via Unity Hub.
 
 3. Select scene:
    - In the project assets, go to **Assets >> Scenes** folder.
