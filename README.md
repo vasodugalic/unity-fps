@@ -16,9 +16,9 @@
 
 ### Prerequisites
 
+- Git
 - Unity Hub
 - Unity **2022.3.7f1**
-- Git
 
 ### Setup
 1. Clone the repository:
