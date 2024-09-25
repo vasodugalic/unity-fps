@@ -21,6 +21,7 @@
 - Unity **2022.3.7f1**
 
 ### Setup
+
 1. Clone the repository:
   ```bash
   git clone https://github.com/vasodugalic/unity-fps/
