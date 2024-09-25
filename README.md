@@ -34,4 +34,6 @@
    - Double-click on **Menu** scene.
    - You can now start the game by pressing on **Play** button.
    
-   
+## License
+
+This project is licensed under the MIT License. See the LICENSE.txt file for details.
