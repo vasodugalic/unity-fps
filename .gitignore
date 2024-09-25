@@ -1,16 +1,41 @@
-# Ignore generated files by Unity
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
+###
+# Unity folders and files
+###
+[Aa]ssets/AssetStoreTools*
 [Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Uu]nityGenerated/
+# file on crash reports
+sysinfo.txt
+# Unity3D generated meta files
+*.pidb.meta
 
-# Ignore memory captures and recordings
-[Mm]emoryCaptures/
-[Rr]ecordings/
-
-# Ignore OS-generated files
+###
+# VS/MD solution and project files
+###
+[Ee]xportedObj/
+*.booproj
+*.csproj
+*.sln
+*.suo
+*.svd
+*.unityproj
+*.user
+*.userprefs
+*.pidb
 .DS_Store
+
+###
+# OS generated
+###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
 Thumbs.db
