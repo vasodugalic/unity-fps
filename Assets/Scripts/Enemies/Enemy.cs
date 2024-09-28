@@ -21,13 +21,16 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected HealthBar healthBar;
     [SerializeField] protected LayerMask whatIsPlayer;
     [SerializeField] protected LayerMask whatIsGround;
+    protected Kills kills;
 
     protected enum EnemyStates { PATROLLING, CHASING, ATTACKING }
+
 
     private void Start()
     {
         health = maxHealth;
         healthBar.SetSliderMax(maxHealth);
+        kills = GameObject.FindWithTag("Global").GetComponent<Kills>();
     }
 
     private void Update()

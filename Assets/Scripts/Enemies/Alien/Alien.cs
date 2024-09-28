@@ -19,7 +19,6 @@ public class Alien : Enemy
     private Animator animator;
     private AudioSource attackSound;
     private Global global;
-    private Kills kills;
     private EnemySpawn enemySpawn;
 
     void Awake()
@@ -32,7 +31,6 @@ public class Alien : Enemy
         gunBarrel = transform.Find("Gun Barrel");
         bullet = GameObject.FindWithTag("Global").GetComponent<Global>().bullet;
         global = GameObject.FindWithTag("Global").GetComponent<Global>();
-        kills = GameObject.FindWithTag("Global").GetComponent<Kills>();
         enemySpawn = GameObject.FindWithTag("Spawner").GetComponent<EnemySpawn>();
     }
 

@@ -102,6 +102,7 @@ public class Insect : Enemy
     {
         agent.isStopped = true;
         animator.speed = 1;
+        kills.AddKillCount(1);
         animator.SetTrigger("Die");
         Invoke(nameof(EndEnemy), 10f);
     }
